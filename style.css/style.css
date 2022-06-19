@@ -129,11 +129,11 @@ height: 50px;
     color: var(--primery-text-color);
 }
 .item-icon:hover {
-    fill: var(--accent-color);
-        cursor: pointer;
+    fill: currentColor;
+   
 }
 .item-phone:hover {
-fill: var(--accent-color);
+fill: currentColor;
 cursor: pointer;
 }
 .phone:hover,
@@ -612,14 +612,15 @@ margin: 0;
 }
 .item-icon {
     width: 16px;
-    height: 12px;
-    padding-right: 20px;
-    justify-content: center;
+        height: 12px;
+        margin-right: 10px;
+        fill: currentColor;
 } 
 .item-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    fill:currentColor;
 }
 .clients .item:hover {
     fill:var(--accent-color);
