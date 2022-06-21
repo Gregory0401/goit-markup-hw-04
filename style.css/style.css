@@ -426,7 +426,7 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
-    
+    margin-bottom:4px;
         
     
 }
@@ -459,12 +459,10 @@ margin-right: 50px;
 .mail-header .item:last-child {
     margin-right:0px;
 }
-.nav {
-    display: block;
-    margin: 32px;
-}
+
 .header-one .container {
     display: flex;
+    align-items: center;
 }
 .logo {
    
@@ -558,7 +556,7 @@ img {
     
 }
 .produkt-button {
-   
+   padding:0;
     margin:0;
     display: flex;
     justify-content: center;
