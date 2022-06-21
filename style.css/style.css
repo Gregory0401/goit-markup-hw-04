@@ -444,6 +444,7 @@ margin-right: 50px;
     margin-right:0;
 }
 .mail-header {
+    
     display: flex;
     margin:0;
     padding:0;
@@ -459,16 +460,21 @@ margin-right: 50px;
 .mail-header .item:last-child {
     margin-right:0px;
 }
+.header-one {
+    border-bottom: 1px solid var(--third-bgr-color);
+    
+}
 
 .header-one .container {
     display: flex;
     align-items: center;
+    
 }
 .logo {
    
     padding-top:24px;
     padding-bottom:25px;
-    padding-right: 93px;
+    margin-right: 93px;
 }
 .content {
     display:flex;
