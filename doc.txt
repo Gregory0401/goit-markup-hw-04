@@ -1,0 +1,13 @@
+.content .item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: var(--third-bgr-color);
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content .item:nth-child(1):before{
+background-image: url(../image//antenna\ 1.png);
+} 
