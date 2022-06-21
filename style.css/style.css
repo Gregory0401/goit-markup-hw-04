@@ -29,7 +29,7 @@ h1,h2,h3, p {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 .body {
     background-color: var(--white-color);
@@ -39,6 +39,7 @@ h1,h2,h3, p {
 
 /* блок герои */
 .hero {
+    max-width: 1600px;
     background-color: var(--second-bgr-color);
     text-align: center;
     padding-top: 200px;
@@ -47,6 +48,8 @@ h1,h2,h3, p {
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
     url(../image/hero.png);
+    margin:0 auto;
+
     
 }
 
@@ -195,15 +198,36 @@ cursor: pointer;
     padding-top:30px;
     padding-bottom:16px;
 }
+.item-soc {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+}
+.inst-soc {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    fill: rgba(175, 177, 184, 1);
+    padding-top: 28px;
+
+}
 .cart-port {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
     border-bottom: 1px solid var(--third-bgr-color);
-        border-right: 1px solid var(--third-bgr-color);
-        border-left: 1px solid var(--third-bgr-color);
-    
+    border-right: 1px solid var(--third-bgr-color);
+    border-left: 1px solid var(--third-bgr-color);
+
 }
 .header-third {
     color: var(--title-text-color);
@@ -462,7 +486,7 @@ margin-right: 50px;
 }
 .header-one {
     border-bottom: 1px solid var(--third-bgr-color);
-    
+     
 }
 
 .header-one .container {
@@ -496,13 +520,14 @@ img {
 
 
  .icons {
-     box-sizing: border-box;
+   display: flex;
+   align-items:center;
+   justify-content: center;
      background-color: var(--third-bgr-color);
      width: 270px;
      height: 120px;
      margin-bottom: 30px;
-     padding-top: 25px;
-     padding-left: 100px;
+   
  }
 
 
@@ -705,26 +730,8 @@ margin: 0;
     background-color: var(--accent-color);
     cursor: pointer;
 }
-.item-soc {
-    display:flex;
-    width: 206px;
-    height: 44px;
-    margin:0;
-     margin-top:0;
-     padding:0;
-     margin-left: 32px;
-     margin-right: 32px;
-     margin-bottom:30px;
-     
 
-}  
-.inst-soc {
-    width: 22px;
-    height: 22px;
-    fill:rgba(175, 177, 184, 1);
-    padding:11px;
-   
-}
+
 .link-soc {
     display:flex;
     width: 44px;
