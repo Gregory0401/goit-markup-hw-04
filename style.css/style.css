@@ -351,6 +351,7 @@ button {
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    border: 0;
 }
 
 .button-site {
@@ -366,6 +367,7 @@ button {
         padding-left: 22px;
         padding-right: 22px;
     border-radius: 4px;
+    border:0;
 }
 
 .button-site:hover,
@@ -388,6 +390,7 @@ button {
         padding-left: 22px;
         padding-right: 22px;
     border-radius: 4px;
+    border: 0;
 }
 
 .button-pr:hover,
@@ -410,6 +413,7 @@ button {
         padding-left: 22px;
         padding-right: 22px;
     border-radius: 4px;
+    border: 0;
 }
 
 .button-dis:hover,
@@ -432,6 +436,7 @@ button {
         padding-left: 22px;
         padding-right: 22px;
     border-radius: 4px;
+    border: 0;
 }
 
 .button-mar:hover,
@@ -505,6 +510,20 @@ margin-right: 50px;
     display: flex;
     align-items: center;
     
+}
+.logo-one {
+    fill: rgba(175, 177, 184, 1);
+   padding-left: 28px;
+   padding-right:28px;
+border: 1px;
+    border-radius: 4px;
+    width:170px;
+    height:92px;
+
+   
+}
+.logo-one:hover {
+    fill:var(--accent-color);
 }
 .logo {
    
@@ -626,6 +645,12 @@ img {
 .poster .item {
     width: 370px;
 }
+.postr {
+    width: 370px;
+    
+    display: block;
+
+}
 .poster .item .postr:hover {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
     
@@ -636,6 +661,7 @@ img {
 .client {
     padding-top: 94px;
     padding-bottom:94px;
+    border-radius: 4px;
     
 }
 .client .container {
@@ -646,6 +672,7 @@ display: flex;
 padding: 0;
 margin: 0;
 margin-top: 50px;
+border-radius: 4px;
 }
 .clients .item {
     padding:0;
@@ -653,11 +680,17 @@ margin-top: 50px;
     width: 170px;
     height: 92px;
     box-sizing: border-box;
-    border: 1px solid #AFB1B8;
+    border: 1px;
     border-radius: 4px;
 
 }
-.clients .item:hover {
+.clien {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.clients .item .clien:hover {
     color:var(--accent-color);
     border: 1px solid  var(--accent-color);
     cursor: pointer;
@@ -698,8 +731,9 @@ margin-top: 50px;
 .clients .item {
     fill:rgba(175, 177, 184, 1);
     box-sizing: border-box;
-    padding-top: 16px;
-    padding-left: 32px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .header-footer {
@@ -728,6 +762,9 @@ margin-top: 50px;
 }
 .footer-social .item {
     box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding:0;
     margin: 0;
     width: 44px;
@@ -777,5 +814,19 @@ margin-top: 50px;
 }
 .link{
     box-sizing: border-box;
+    width: 44px;
+    height:44px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.clien {
+    width: 170px;
+    height: 92px;
+    padding:0;
+    margin:0;
+    display: flex;
+        align-items: center;
+        justify-content: center;
     
 }
