@@ -11,3 +11,15 @@
 .content .item:nth-child(1):before{
 background-image: url(../image//antenna\ 1.png);
 } 
+
+
+
+.inst-soc {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    fill: rgba(175, 177, 184, 1);
+}
+ <svg class="inst-soc"><use href="./image/symbol-defs.svg#icon-insta"></use></svg></li>

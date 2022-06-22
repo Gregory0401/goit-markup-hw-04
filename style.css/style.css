@@ -171,6 +171,7 @@ cursor: pointer;
     text-align: center;
 }
 
+
 .text {
     color: var(--primery-text-color);
 
@@ -188,7 +189,7 @@ cursor: pointer;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-bottom:16px;
+    margin-bottom:16px;
 }
 
 .header-second {
@@ -203,9 +204,10 @@ cursor: pointer;
 }
 .cart-text {
     padding-top:30px;
-    padding-bottom:16px;
+    padding-bottom:30px;
 }
 .link-soc {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,20 +227,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
 }
-.inst-soc {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    fill: rgba(175, 177, 184, 1);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 12px;
-    padding-left: 12px;
-   
 
-}
 .cart-port {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -637,27 +626,30 @@ img {
 .poster .item {
     width: 370px;
 }
-.poster .item:hover {
-     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+.poster .item .postr:hover {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
     
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
     
-        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .client {
     padding-top: 94px;
     padding-bottom:94px;
     
 }
+.client .container {
+    width: 1170px;
+}
 .clients {
 display: flex;
 padding: 0;
 margin: 0;
+margin-top: 50px;
 }
 .clients .item {
     padding:0;
     margin: 0;
-    margin-top:50px;
     width: 170px;
     height: 92px;
     box-sizing: border-box;
@@ -675,6 +667,13 @@ margin: 0;
 }
 .our-client {
     text-align: center;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 .icon-item {
     width: 70px;
@@ -718,10 +717,10 @@ margin: 0;
 .footer-link {
   
     margin-left:70px;
-    margin-top:12px;
 }
 .footer .container {
     display:flex;
+    align-items: baseline;
 }
 .footer-social {
     width: 206px;
@@ -741,6 +740,9 @@ margin: 0;
     margin-right: 0;
 }
 .inst {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     width: 20px;
     height: 20px;
     fill:var(--white-color);
@@ -764,4 +766,16 @@ margin: 0;
 }
 .inst-soc:hover {
     fill:var(--white-color);
+}
+.inst-soc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    fill: rgba(175, 177, 184, 1);
+}
+.link{
+    box-sizing: border-box;
+    
 }
